@@ -14,4 +14,4 @@ f.close()                     #closes the file after use.
 Link
 ----
 The link of the solution is:
-
+https://github.com/resham/summer-training-hometask/blob/master/mount.py
