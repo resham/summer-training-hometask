@@ -6,12 +6,12 @@ directory,then reads its contents and then prints the contents(required output).
 
 Code
 ----
-#!/usr/bin/env python         
-f = open("/proc/mounts")      #this opens the mounts file present inside proc directory 
-print f.read()                #reads the text inside the mounts file.
-f.close()                     #closes the file after use.
+1. #!/usr/bin/env python         
+2.f = open("/proc/mounts")      #this opens the mounts file present inside proc directory 
+3.print f.read()                #reads the text inside the mounts file.
+4.f.close()                     #closes the file after use.
 
 Link
 ----
-The link of the solution is:
+The link of the  code solution is:
 https://github.com/resham/summer-training-hometask/blob/master/mount.py
