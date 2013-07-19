@@ -23,11 +23,10 @@ class Application(Cmd):
     def do_greet(self,line):
          print "hi,%s" % (getuser())
 
-    def do_stockGOOG(self,line):
-        r = requests.get("http://download.finance.yahoo.com/d/quotes.csv?s=GOOG&f=l1")
-        data=r.text
-        value=float(data)
-        print value
+    def do_stockgoog(self,line):
+        link = requests.get("http://download.finance.yahoo.com/d/quotes.csv?s=GOOG&f=l1")
+        Stockvalue=link.text
+        print Stockvalue
 
 if __name__ == '__main__':
         app = Application()
